@@ -8,6 +8,10 @@
 
 > go-ipfs-blocksutil provides provides utility functions for working with Blocks.
 
+## Lead Maintainer
+
+[Steven Allen](https://github.com/Stebalien)
+
 ## Table of Contents
 
 - [Install](#install)
