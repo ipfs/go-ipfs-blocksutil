@@ -2,7 +2,11 @@
 // with Blocks.
 package blocksutil
 
-import "github.com/ipfs/go-block-format"
+import (
+	"fmt"
+	
+	"github.com/ipfs/go-block-format"
+)
 
 // NewBlockGenerator returns an object capable of
 // producing blocks.
@@ -21,7 +25,7 @@ type BlockGenerator struct {
 // Next generates a new BasicBlock.
 func (bg *BlockGenerator) Next() *blocks.BasicBlock {
 	bg.seq++
-	return blocks.NewBlock([]byte(string(bg.seq)))
+	return blocks.NewBlock([]byte(fmt.Sprint(bg.seq)))
 }
 
 // Blocks generates as many BasicBlocks as specified by n.
