@@ -4,7 +4,7 @@ package blocksutil
 
 import (
 	"fmt"
-	
+
 	"github.com/ipfs/go-block-format"
 )
 
