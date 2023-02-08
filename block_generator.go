@@ -5,7 +5,7 @@ package blocksutil
 import (
 	"fmt"
 
-	"github.com/ipfs/go-block-format"
+	blocks "github.com/ipfs/go-block-format"
 )
 
 // NewBlockGenerator returns an object capable of
