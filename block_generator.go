@@ -15,7 +15,7 @@ func NewBlockGenerator() BlockGenerator {
 }
 
 // BlockGenerator generates BasicBlocks on demand.
-// For each instace of BlockGenerator,
+// For each instance of BlockGenerator,
 // each new block is different from the previous,
 // although two different instances will produce the same.
 type BlockGenerator struct {
