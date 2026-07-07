@@ -1,16 +1,10 @@
 # go-ipfs-blocksutil
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![GoDoc](https://godoc.org/github.com/ipfs/go-ipfs-blocksutil?status.svg)](https://godoc.org/github.com/ipfs/go-ipfs-blocksutil)
-[![Build Status](https://travis-ci.org/ipfs/go-ipfs-blocksutil.svg?branch=master)](https://travis-ci.org/ipfs/go-ipfs-blocksutil)
+[![GoDoc](https://pkg.go.dev/badge/github.com/ipfs/go-ipfs-blocksutil)](https://pkg.go.dev/github.com/ipfs/go-ipfs-blocksutil)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ipfs/go-ipfs-blocksutil/go-test.yml?branch=master)](https://github.com/ipfs/go-ipfs-blocksutil/actions)
 
 > go-ipfs-blocksutil provides provides utility functions for working with Blocks.
-
-## Lead Maintainer
-
-[Steven Allen](https://github.com/Stebalien)
 
 ## Table of Contents
 
