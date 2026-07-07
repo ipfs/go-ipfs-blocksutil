@@ -6,6 +6,11 @@
 
 > go-ipfs-blocksutil provides provides utility functions for working with Blocks.
 
+## ❗ This repo is no longer maintained.
+👉 We highly recommend switching to [`random.BlocksOfSize`](https://pkg.go.dev/github.com/ipfs/go-test/random#BlocksOfSize) in the [`go-test/random`](https://pkg.go.dev/github.com/ipfs/go-test/random) package for generating blocks.
+
+⚠️ If you continue using this repo, please note that security fixes will not be provided.
+
 ## Table of Contents
 
 - [Install](#install)
